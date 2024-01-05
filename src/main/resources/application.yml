@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: init-template
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.48.10:3306/trobs?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    username: trobs
+    password: trobs_test
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+    charset: UTF-8
+server:
+  port: 8084
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*Mapper.xml
+  global-config:
+    db-config:
+      id-type: auto
+      #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+      field-strategy: ignored
+      # 默认数据库表下划线命名
+      table-underline: true
+      logic-delete-value: 1
+      logic-not-delete-value: 0
