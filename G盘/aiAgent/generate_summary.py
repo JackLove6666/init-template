@@ -167,23 +167,28 @@ PLAIN_MAP: dict[str, str] = {
     "HKUDS/DeepTutor": "终身个性化 AI 家教：跟着你长期学、按你进度讲",
     "MoonshotAI/kimi-code": "月之暗面 Kimi 的编程 Agent CLI：下一代智能体的起点",
     "github/copilot-sdk": "把 GitHub Copilot Agent 嵌进自己应用/服务的多端 SDK",
+    "Graphify-Labs/graphify": "把代码库/文档/SQL/配置/PDF 变成可查询知识图谱的 Agent Skill",
+    "xbtlin/ai-berkshire": "AI 时代伯克希尔：用多 Agent 做价值投资研究（巴菲特等人方法论）",
+    "django/django": "追求完美又赶工期的人用的 Python Web 框架（Django）",
+    "Pumpkin-MC/Pumpkin": "让人人都能轻松搭高速高效 Minecraft 服务器",
+    "jj-vcs/jj": "兼容 Git、又简单又强的新一代版本控制系统 Jujutsu",
 }
 
 CATEGORY_RULES: list[tuple[str, list[str]]] = [
     ("AI Agent / 智能体", ["agent", "智能体", "orchestrat", "multiplex", "fleet", "ade for", "vibe-trading", "hiring-agent", "openinterpreter", "crush", "gnhf", "comet", "agentscope", "speech-to-speech", "agent-native", "agentgateway", "omnigraph", "skillhub", "agent-toolkit", "pentagi", "storm", "awesome-llm-apps", "ai-job-search", "job application", "deeptutor", "kimi-code"]),
-    ("知识库 / RAG / 记忆", ["memory", "rag", "knowledge", "记忆", "cognee", "ragflow", "weknora", "open-notebook", "hyper-extract", "compendium"]),
+    ("知识库 / RAG / 记忆", ["memory", "rag", "knowledge", "记忆", "cognee", "ragflow", "weknora", "open-notebook", "hyper-extract", "compendium", "graphify"]),
     ("爬虫 / 数据采集", ["scrape", "crawl", "firecrawl", "spider", "采集", "mediacrawler", "yt-dlp", "google-maps-scraper"]),
     ("安全 / 渗透测试", ["secur", "pentest", "vulnerab", "hack", "渗透", "strix", "nuclei", "skillspector", "cybersecurity", "debloat", "pentagi"]),
     ("视频 / 多媒体 / 会议", ["video", "meeting", "iptv", "transcri", "montage", "media", "会议", "直播", "opencut", "voicebox", "romm", "smarttube", "immich", "claude-video", "peertube", "webtorrent", "openwhispr", "bevy", "lingbot-map", "palmier", "video-use"]),
     ("网络 / 通信 / 隐私", ["chat", "privacy", "quic", "nat", "messaging", "iroh", "simplex", "隐私", "tailscale", "headscale", "ntfy", "cryptomator", "rustdesk", "frp", "canopy", "stalwart", "schollz/croc", "croc"]),
     ("数据库 / 存储", ["database", "vector", "storage", "zvec", "sql", "向量库", "turso", "dbx", "elasticsearch", "qdrant"]),
     ("运维 / DevOps / 云", ["devops", "kubernetes", "docker", "cloud", "deploy", "infra", "terraform", "prometheus", "argo", "casaos", "arcane", "keycloak", "compose", "grafana", "moby", "actions/checkout", "logto"]),
-    ("金融 / 量化 / 股票", ["stock", "trading", "finance", "quant", "股票", "wealthfolio", "nautilus", "vibe-trading"]),
+    ("金融 / 量化 / 股票", ["stock", "trading", "finance", "quant", "股票", "wealthfolio", "nautilus", "vibe-trading", "berkshire", "investing"]),
     ("前端 / Web / UI", ["ui", "frontend", "web", "css", "react", "vue", "imgui", "page-agent", "taste", "impeccable", "fastify", "express", "swc", "biome", "insomnia", "open-seo", "hallmark", "ui-skills", "design.md", "infinite-canvas", "shadcn"]),
     ("移动 / 跨端", ["android", "ios", "mobile", "flutter", "react-native", "跨端", "smarttube", "dioxus"]),
     ("大模型 / LLM 基础设施", ["llm", "prompt", "gateway", "token", "model", "openai", "claude", "gpt", "gemini", "inference", "omniroute", "lmcache", "timesfm", "slime", "skillopt", "system_prompts", "grok2api", "caveman"]),
     ("AI 编程助手 / 开发工具", ["coding", "code", "ide", "copilot", "cursor", "developer", "mcp", "cli", "devtools", "codex", "ripgrep", "fzf", "helix", "deno", "jadx", "archify", "no-mistakes", "desktopcommander", "chrome-devtools", "stitch-skills", "plugins", "officecli", "destructive_command", "sharkdp/bat", "wezterm", "openbidkit", "yibiao", "agent-orchestrator", "copilot-sdk", "kimi-code"]),
-    ("语言 / 框架 / 基础库", ["library", "framework", "logging", "spdlog", "compiler", "runtime", "rust-lang/rust", "cupy", "hello-algo", "javaguide", "golang/go", "catch2", "next.js", "chinese-poetry", "spring-boot", "cs249r"]),
+    ("语言 / 框架 / 基础库", ["library", "framework", "logging", "spdlog", "compiler", "runtime", "rust-lang/rust", "cupy", "hello-algo", "javaguide", "golang/go", "catch2", "next.js", "chinese-poetry", "spring-boot", "cs249r", "django", "jj-vcs", "pumpkin-mc"]),
 ]
 
 
