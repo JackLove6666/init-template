@@ -26,5 +26,6 @@ python3 generate_summary.py
 
 ## 最近刷新
 
+- 2026-07-24：多语言月榜汇总 135 → Top100；榜首 OpenMontage；前五含 graphify / codebase-memory-mcp / Agent-Reach / ai-job-search；新增 PLAIN_MAP：code-review-graph / cangjie-skill / harper / likec4 / gentle-ai
 - 2026-07-23：多语言月榜汇总 135 → Top100；榜首 OpenMontage；#2 新上 graphify；新增 PLAIN_MAP：graphify / ai-berkshire / django / Pumpkin / jj
 - 2026-07-22：多语言月榜汇总 132 → Top100；榜首 OpenMontage；新增 DeepTutor / kimi-code / copilot-sdk
