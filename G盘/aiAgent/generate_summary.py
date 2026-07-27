@@ -189,6 +189,12 @@ PLAIN_MAP: dict[str, str] = {
     "OtterMind/Chat2DB": "AI 驱动的数据库客户端：自然语言查库、写 SQL，支持主流数据库",
     "kunchenguid/treehouse": "不用自己折腾 git worktree：更省心的多工作树管理",
     "andrewrabert/jellium-desktop": "非官方 Jellyfin 桌面客户端：把家庭影院搬到桌面上",
+    "emilkowalski/skills": "给设计工程师用的 Skills 合集，让 AI 更懂设计和前端审美",
+    "hasaneyldrm/exercises-dataset": "1324 个健身动作数据集：GIF动画、肌群/器械标签、六语种步骤说明",
+    "facebook/astryx": "可深度定制、对 Agent 友好的开源设计系统（Meta/Facebook）",
+    "CoreBunch/Instatic": "开源可视化 CMS：对标 Webflow/Framer/WordPress，输出干净静态页",
+    "pingdotgg/t3code": "Theo 出品的极简 Web GUI：统一操控 Codex/Claude/Cursor 等编程 Agent",
+    "junhoyeo/tokscale": "终端里追踪各 AI 编程 Agent 的 Token 用量，还有全球用量排行榜",
 }
 
 CATEGORY_RULES: list[tuple[str, list[str]]] = [
@@ -201,10 +207,10 @@ CATEGORY_RULES: list[tuple[str, list[str]]] = [
     ("数据库 / 存储", ["database", "vector", "storage", "zvec", "sql", "向量库", "turso", "dbx", "elasticsearch", "qdrant", "chat2db"]),
     ("运维 / DevOps / 云", ["devops", "kubernetes", "docker", "cloud", "deploy", "infra", "terraform", "prometheus", "argo", "casaos", "arcane", "keycloak", "compose", "grafana", "moby", "actions/checkout", "logto"]),
     ("金融 / 量化 / 股票", ["stock", "trading", "finance", "quant", "股票", "wealthfolio", "nautilus", "vibe-trading", "berkshire", "investing"]),
-    ("前端 / Web / UI", ["ui", "frontend", "web", "css", "react", "vue", "imgui", "page-agent", "taste", "impeccable", "fastify", "express", "swc", "biome", "insomnia", "open-seo", "hallmark", "ui-skills", "design.md", "infinite-canvas", "shadcn", "pi-web"]),
+    ("前端 / Web / UI", ["ui", "frontend", "web", "css", "react", "vue", "imgui", "page-agent", "taste", "impeccable", "fastify", "express", "swc", "biome", "insomnia", "open-seo", "hallmark", "ui-skills", "design.md", "infinite-canvas", "shadcn", "pi-web", "astryx", "instatic", "emilkowalski/skills", "design engineers"]),
     ("移动 / 跨端", ["android", "ios", "mobile", "flutter", "react-native", "跨端", "smarttube", "dioxus"]),
-    ("大模型 / LLM 基础设施", ["llm", "prompt", "gateway", "token", "model", "openai", "claude", "gpt", "gemini", "inference", "omniroute", "lmcache", "timesfm", "slime", "skillopt", "system_prompts", "grok2api", "caveman"]),
-    ("AI 编程助手 / 开发工具", ["coding", "code", "ide", "copilot", "cursor", "developer", "mcp", "cli", "devtools", "codex", "ripgrep", "fzf", "helix", "deno", "jadx", "archify", "no-mistakes", "desktopcommander", "chrome-devtools", "stitch-skills", "plugins", "officecli", "destructive_command", "sharkdp/bat", "wezterm", "openbidkit", "yibiao", "agent-orchestrator", "copilot-sdk", "kimi-code", "claude-skills", "jcode", "gajae-code", "treehouse"]),
+    ("大模型 / LLM 基础设施", ["llm", "prompt", "gateway", "token", "model", "openai", "claude", "gpt", "gemini", "inference", "omniroute", "lmcache", "timesfm", "slime", "skillopt", "system_prompts", "grok2api", "caveman", "tokscale"]),
+    ("AI 编程助手 / 开发工具", ["coding", "code", "ide", "copilot", "cursor", "developer", "mcp", "cli", "devtools", "codex", "ripgrep", "fzf", "helix", "deno", "jadx", "archify", "no-mistakes", "desktopcommander", "chrome-devtools", "stitch-skills", "plugins", "officecli", "destructive_command", "sharkdp/bat", "wezterm", "openbidkit", "yibiao", "agent-orchestrator", "copilot-sdk", "kimi-code", "claude-skills", "jcode", "gajae-code", "treehouse", "t3code"]),
     ("语言 / 框架 / 基础库", ["library", "framework", "logging", "spdlog", "compiler", "runtime", "rust-lang/rust", "cupy", "hello-algo", "javaguide", "golang/go", "catch2", "next.js", "chinese-poetry", "spring-boot", "cs249r", "django", "jj-vcs", "pumpkin-mc"]),
 ]
 
