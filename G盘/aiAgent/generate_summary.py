@@ -237,10 +237,14 @@ PLAIN_MAP: dict[str, str] = {
     "Emily2040/seedance-2.0": "Seedance 2.0 四模态 AI 影视制作流水线：从创意到成片的生产管线",
     "rustfs/rustfs": "开源 S3 兼容高性能对象存储：小对象吞吐可比 MinIO 更快，可并存迁移",
     "dottxt-ai/outlines": "让大模型稳定输出结构化结果（JSON 等）的开源库",
+    "blader/humanizer": "Agent 技能：帮你去掉文字里的「AI 味」，读起来更像人写的",
+    "MoonshotAI/kimi-cli": "月之暗面 Kimi 的命令行编程 Agent（Kimi Code CLI）",
+    "NomaDamas/k-skill": "面向韩国用户的 Agent 技能合集：让智能体更懂韩语语境",
+    "saadeghi/daisyui": "最流行的开源 Tailwind CSS 组件库，开箱即用好看组件",
 }
 
 CATEGORY_RULES: list[tuple[str, list[str]]] = [
-    ("AI Agent / 智能体", ["agent", "智能体", "orchestrat", "multiplex", "fleet", "ade for", "vibe-trading", "hiring-agent", "openinterpreter", "crush", "gnhf", "comet", "agentscope", "speech-to-speech", "agent-native", "agentgateway", "omnigraph", "skillhub", "agent-toolkit", "pentagi", "storm", "awesome-llm-apps", "ai-job-search", "job application", "deeptutor", "kimi-code", "agentos", "text-to-cad", "earendil-works/pi", "openhands", "rowboat", "airi", "openwork", "marketingskills", "book-to-skill"]),
+    ("AI Agent / 智能体", ["agent", "智能体", "orchestrat", "multiplex", "fleet", "ade for", "vibe-trading", "hiring-agent", "openinterpreter", "crush", "gnhf", "comet", "agentscope", "speech-to-speech", "agent-native", "agentgateway", "omnigraph", "skillhub", "agent-toolkit", "pentagi", "storm", "awesome-llm-apps", "ai-job-search", "job application", "deeptutor", "kimi-code", "kimi-cli", "k-skill", "agentos", "text-to-cad", "earendil-works/pi", "openhands", "rowboat", "airi", "openwork", "marketingskills", "book-to-skill"]),
     ("知识库 / RAG / 记忆", ["memory", "rag", "knowledge", "记忆", "cognee", "ragflow", "weknora", "open-notebook", "hyper-extract", "compendium", "graphify", "chunkr", "ossie", "paperless"]),
     ("爬虫 / 数据采集", ["scrape", "crawl", "firecrawl", "spider", "采集", "mediacrawler", "yt-dlp", "google-maps-scraper", "ghost-downloader", "omniget", "crawl4ai"]),
     ("安全 / 渗透测试", ["secur", "pentest", "vulnerab", "hack", "渗透", "strix", "nuclei", "skillspector", "cybersecurity", "debloat", "pentagi", "ghidra", "ida-pro", "reverse engineering"]),
@@ -249,10 +253,10 @@ CATEGORY_RULES: list[tuple[str, list[str]]] = [
     ("数据库 / 存储", ["database", "vector", "storage", "zvec", "sql", "向量库", "turso", "dbx", "elasticsearch", "qdrant", "chat2db", "pocketbase", "prisma", "orm", "rustfs", "minio", "s3-compatible", "object storage"]),
     ("运维 / DevOps / 云", ["devops", "kubernetes", "docker", "cloud", "deploy", "infra", "terraform", "prometheus", "argo", "casaos", "arcane", "keycloak", "compose", "grafana", "moby", "actions/checkout", "logto", "jenkins", "ansible"]),
     ("金融 / 量化 / 股票", ["stock", "trading", "finance", "quant", "股票", "wealthfolio", "nautilus", "vibe-trading", "berkshire", "investing", "tradingview"]),
-    ("前端 / Web / UI", ["ui", "frontend", "web", "css", "react", "vue", "imgui", "page-agent", "taste", "impeccable", "fastify", "express", "swc", "biome", "insomnia", "open-seo", "hallmark", "ui-skills", "design.md", "infinite-canvas", "shadcn", "pi-web", "astryx", "instatic", "emilkowalski/skills", "design engineers", "htmx", "pascalorg/editor", "claude-seo", "seo"]),
+    ("前端 / Web / UI", ["ui", "frontend", "web", "css", "react", "vue", "imgui", "page-agent", "taste", "impeccable", "fastify", "express", "swc", "biome", "insomnia", "open-seo", "hallmark", "ui-skills", "design.md", "infinite-canvas", "shadcn", "pi-web", "astryx", "instatic", "emilkowalski/skills", "design engineers", "htmx", "pascalorg/editor", "claude-seo", "seo", "daisyui", "tailwind"]),
     ("移动 / 跨端", ["android", "ios", "mobile", "flutter", "react-native", "跨端", "smarttube", "dioxus", "termux"]),
     ("大模型 / LLM 基础设施", ["llm", "prompt", "gateway", "token", "model", "openai", "claude", "gpt", "gemini", "inference", "omniroute", "lmcache", "timesfm", "slime", "skillopt", "system_prompts", "grok2api", "caveman", "tokscale", "outlines", "structured output"]),
-    ("AI 编程助手 / 开发工具", ["coding", "code", "ide", "copilot", "cursor", "developer", "mcp", "cli", "devtools", "codex", "ripgrep", "fzf", "helix", "deno", "jadx", "archify", "no-mistakes", "desktopcommander", "chrome-devtools", "stitch-skills", "plugins", "officecli", "destructive_command", "sharkdp/bat", "wezterm", "openbidkit", "yibiao", "agent-orchestrator", "copilot-sdk", "kimi-code", "claude-skills", "jcode", "gajae-code", "treehouse", "t3code", "open-code-review", "oh-my-pi", "worktrunk", "atuin", "avoid-ai-writing", "posthog"]),
+    ("AI 编程助手 / 开发工具", ["coding", "code", "ide", "copilot", "cursor", "developer", "mcp", "cli", "devtools", "codex", "ripgrep", "fzf", "helix", "deno", "jadx", "archify", "no-mistakes", "desktopcommander", "chrome-devtools", "stitch-skills", "plugins", "officecli", "destructive_command", "sharkdp/bat", "wezterm", "openbidkit", "yibiao", "agent-orchestrator", "copilot-sdk", "kimi-code", "kimi-cli", "claude-skills", "jcode", "gajae-code", "treehouse", "t3code", "open-code-review", "oh-my-pi", "worktrunk", "atuin", "avoid-ai-writing", "humanizer", "posthog"]),
     ("语言 / 框架 / 基础库", ["library", "framework", "logging", "spdlog", "compiler", "runtime", "rust-lang/rust", "cupy", "hello-algo", "javaguide", "golang/go", "catch2", "next.js", "chinese-poetry", "spring-boot", "cs249r", "django", "jj-vcs", "pumpkin-mc", "nodejs/node", "cpython"]),
 ]
 

@@ -26,6 +26,7 @@ python3 generate_summary.py
 
 ## 最近刷新
 
+- 2026-08-03：多语言月榜汇总 138 → Top100；榜首 OmniRoute（+27721）；前五 graphify / orca / OpenCut / skills；新增 PLAIN_MAP：blader/humanizer、MoonshotAI/kimi-cli、NomaDamas/k-skill、saadeghi/daisyui
 - 2026-08-02：多语言月榜汇总 139 → Top100；榜首 OmniRoute（+27829）；前五 graphify / orca / OpenCut / skills；新增 PLAIN_MAP：Emily2040/seedance-2.0、rustfs/rustfs、dottxt-ai/outlines
 - 2026-08-01：多语言月榜汇总 140 → Top100；榜首 OmniRoute（+27829）；前五 graphify / orca / OpenCut / skills
 - 2026-07-30：多语言月榜汇总 134 → Top100；榜首 OmniRoute；前五 graphify / orca / OpenCut / strix
